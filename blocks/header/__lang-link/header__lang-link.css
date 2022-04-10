@@ -1,0 +1,14 @@
+.header__lang-link {
+  text-decoration: underline;
+  text-underline-offset: 20%;
+  margin-left: 9px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
+  transition: opacity 0.5s linear;
+  cursor: url(../../../images/Coursor.png), auto;
+}
+
+.header__lang-link:last-child {
+  text-decoration: none;
+}

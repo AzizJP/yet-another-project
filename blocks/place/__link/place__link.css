@@ -1,0 +1,7 @@
+.place__link {
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  transition: opacity 0.5s linear;
+  cursor: url(../../../images/Coursor.png), auto;
+}

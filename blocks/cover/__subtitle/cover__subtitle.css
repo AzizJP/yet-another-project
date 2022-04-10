@@ -1,0 +1,10 @@
+.cover__subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  z-index: 3;
+  width: 288px;
+  cursor: url(../../../images/Coursor.png), auto;
+}
