@@ -1,6 +1,5 @@
 .header__lang-link {
-  text-decoration: underline;
-  text-underline-offset: 20%;
+  text-decoration: none;
   margin-left: 9px;
   font-size: 18px;
   line-height: 20px;
@@ -9,6 +8,16 @@
   cursor: url(../../../images/Coursor.png), auto;
 }
 
-.header__lang-link:last-child {
-  text-decoration: none;
+@media screen and (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__lang-link:hover {
+    opacity: 0.8;
+    transition: opacity 0.1s linear;
+  }
 }

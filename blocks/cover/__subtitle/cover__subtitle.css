@@ -8,3 +8,18 @@
   width: 288px;
   cursor: url(../../../images/Coursor.png), auto;
 }
+
+@media screen and (min-width: 768px) {
+  .cover__subtitle {
+    width: 360px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__subtitle:hover ~ .cover__overlay {
+    opacity: 0.8;
+    transition: opacity 0.1s linear;
+  }
+}

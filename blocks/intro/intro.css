@@ -2,3 +2,23 @@
   list-style: none;
   padding: 64px 16px;
 }
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding: 110px 24px 88px;
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding: 114px 48px 92px;
+    width: 690px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding: 114px 148px 92px;
+  }
+}
